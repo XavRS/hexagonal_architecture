@@ -1,8 +1,8 @@
-package org.xavrs.hexa.application.port.output
+package org.xavrs.hexa.application.service
 
 import org.xavrs.hexa.domain.Division
 
-interface DivisionPort {
+interface DivisionService {
     suspend fun getAllDivisions(): List<Division>
     suspend fun add(division: Division)
 }

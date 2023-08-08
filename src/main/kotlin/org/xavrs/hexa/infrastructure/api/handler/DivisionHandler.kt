@@ -6,8 +6,8 @@ import org.springframework.web.reactive.function.server.ServerResponse
 import org.springframework.web.reactive.function.server.awaitBody
 import org.springframework.web.reactive.function.server.bodyValueAndAwait
 import org.springframework.web.reactive.function.server.json
-import org.xavrs.hexa.application.port.input.GetAllDivisionsUseCase
-import org.xavrs.hexa.application.port.input.SaveDivisionUseCase
+import org.xavrs.hexa.application.usecase.GetAllDivisionsUseCase
+import org.xavrs.hexa.application.usecase.SaveDivisionUseCase
 import org.xavrs.hexa.infrastructure.api.dto.DivisionDTO
 
 @Component
